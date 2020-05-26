@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/lanternfestival/static/css/main.d25a618a.chunk.css",
+    "main.js": "/lanternfestival/static/js/main.77150a72.chunk.js",
+    "main.js.map": "/lanternfestival/static/js/main.77150a72.chunk.js.map",
+    "runtime-main.js": "/lanternfestival/static/js/runtime-main.ae18c79b.js",
+    "runtime-main.js.map": "/lanternfestival/static/js/runtime-main.ae18c79b.js.map",
+    "static/js/2.08250c12.chunk.js": "/lanternfestival/static/js/2.08250c12.chunk.js",
+    "static/js/2.08250c12.chunk.js.map": "/lanternfestival/static/js/2.08250c12.chunk.js.map",
+    "index.html": "/lanternfestival/index.html",
+    "precache-manifest.b5bb789652063c2ee011fa6c54348e14.js": "/lanternfestival/precache-manifest.b5bb789652063c2ee011fa6c54348e14.js",
+    "service-worker.js": "/lanternfestival/service-worker.js",
+    "static/css/main.d25a618a.chunk.css.map": "/lanternfestival/static/css/main.d25a618a.chunk.css.map",
+    "static/js/2.08250c12.chunk.js.LICENSE.txt": "/lanternfestival/static/js/2.08250c12.chunk.js.LICENSE.txt",
+    "static/media/highlights.css": "/lanternfestival/static/media/favicon.ebede0bf.png",
+    "static/media/slide1.JPG": "/lanternfestival/static/media/slide1.37b1d444.JPG",
+    "static/media/slide2.JPG": "/lanternfestival/static/media/slide2.e5e1fde5.JPG",
+    "static/media/slide3.JPG": "/lanternfestival/static/media/slide3.5fffab94.JPG",
+    "static/media/slide4.JPG": "/lanternfestival/static/media/slide4.9395443f.JPG",
+    "static/media/slide5.JPG": "/lanternfestival/static/media/slide5.dbf3c0e7.JPG",
+    "static/media/slide6.JPG": "/lanternfestival/static/media/slide6.4485509a.JPG",
+    "static/media/slide7.JPG": "/lanternfestival/static/media/slide7.9940af97.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae18c79b.js",
+    "static/js/2.08250c12.chunk.js",
+    "static/css/main.d25a618a.chunk.css",
+    "static/js/main.77150a72.chunk.js"
+  ]
+}
