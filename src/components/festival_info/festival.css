@@ -1,0 +1,56 @@
+
+.festinfo_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.festinfo_item {   
+    width: 100%;
+    color:#ffffff;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+                      
+.festinfo_item .festinfo_outer {
+    width: 70%;
+    border: 0.2rem solid slategray;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.festinfo_item .festinfo_outer:hover {
+    background: slategray;
+}
+
+.festinfo_item .festinfo_inner { 
+    border: 0.1rem solid slategray;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.festinfo_item .festinfo_icon {
+    font-size: 5rem;
+    left: 35%;
+    top: -15%;
+    position: absolute;    
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.festinfo_item .festinfo_title {
+    font-family: "Righteous";
+    font-size: 2rem;
+    margin: 5rem 1rem 2rem 1rem;
+    border-bottom: 0.2rem dotted silver;
+    padding-bottom: 1.5rem;
+}
+
+.festinfo_item .festinfo_desc {
+    font-size: 1.2rem;
+    margin: 2rem;
+}

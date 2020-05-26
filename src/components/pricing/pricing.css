@@ -1,0 +1,72 @@
+
+.pricing_section {
+    padding: 3rem;
+}
+
+.pricing_section h2 {
+    color: cornsilk;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
+.pricing_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    margin: 1em auto;
+}
+
+.pricing_wrapper .pricing_item{
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 1.5rem;
+}
+
+/* .pricing_wrapper .pricing_inner_wrapper {
+    border:0.2rem solid linear-gradient(#ffa800, yellow);
+    width: auto;
+    padding: 2rem 1rem;
+} */
+
+.pricing_wrapper .pricing_inner_wrapper {
+    width: auto;
+    padding: 2rem 1rem;    
+    /* border:0.2rem solid linear-gradient(#ffa800, yellow); */
+    border-width: 0.2rem;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #ffa800, yellow);
+    border-image-slice: 1;
+}
+
+.pricing_inner_wrapper .pricing_title {
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffa800;
+    padding-bottom: 2rem;
+}
+
+.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+    font-size: 3rem;
+    display: block;
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 0.5rem;
+}
+.pricing_inner_wrapper .pricing_description {
+    color: #b8b8b8;
+    font-weight: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    min-height: 5rem;
+}
+
+.pricing_inner_wrapper .pricing_buttons {
+     text-align: center;
+}

@@ -1,0 +1,48 @@
+/*====================
+        HEADER
+======================*/
+
+header {
+    position: flex;
+    padding: 1rem;
+    transition: all 300ms ease-in;
+}
+
+header .header_logo {
+    flex-grow: 1rem;
+}
+header .header_logo_main {
+    text-overflow: ellipsis;
+    font-size: 2rem;
+}
+
+header .header_logo_title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+
+/*====================
+        Side Drawer
+======================*/
+
+.list_item {
+    font-family: 'Cormorant Upright';
+    font-size: 2rem;
+}
+
+/*====================
+        FOOTER
+======================*/
+
+footer {
+    padding:1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#ffffff;
+    background: black;
+}
+
+footer .footer_copyright {
+    font-size: 1rem;
+}

@@ -1,0 +1,86 @@
+
+/*====================
+        HIGHLIGHTS
+======================*/
+
+
+.highlight_wrapper{
+    padding: 4rem;
+    background-image: url("../../resources/images/favicon.png");
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    background-blend-mode: lighten;
+}
+
+
+.highlight_wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.highlight_wrapper .highlight_description {
+    line-height: 2rem;
+    font-size: 1rem;
+    color: darkslategrey;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 2rem;
+}
+
+.discount_wrapper {
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    /* grid-template-columns: 30% 70%; */
+    /* grid-gap: 1rem; */
+    padding: 1rem;
+}
+
+.discount_wrapper .discount_percentage {
+    padding-right: 1rem;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 5rem;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 1.5rem;
+    font-weight: 2rem;
+    display: block;
+}
+
+
+/* .discount_wrapper .discount_description h3 {
+    font-size: 2rem;
+    font-weight: 1rem;
+    margin: 0rem;
+    padding-top: 1rem;
+    color: #2c2c2c;
+} */
+
+.discount_wrapper .discount_description p { 
+    /* line-height: rem; */
+    font-size: 1.5rem;
+    /* font-weight: 1rem; */
+}
+
+
+@media only screen and (max-width: 425px) {
+    .highlight_wrapper{
+        padding: 0px;
+    }
+
+    .highlight_wrapper h2 {
+        text-align: center;
+        text-transform: uppercase;
+        color:#2c2c2c;
+        font-size: 1rem;
+        padding: 0px;
+    }    
+}

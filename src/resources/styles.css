@@ -1,0 +1,32 @@
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font_righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.bg_black {
+    background-color: #2f2f2f;
+}
+
+.color_red {
+    color: lightcoral;
+}
+
+.color_yellow {
+    color: lemonchiffon;
+}
+
+.iconImage {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.center_wrapper {
+    width: auto;
+    margin:0 auto;
+}
