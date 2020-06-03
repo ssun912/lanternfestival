@@ -46,3 +46,6 @@ footer {
 footer .footer_copyright {
     font-size: 1rem;
 }
+footer .footer_copyright p {
+    font-size: 0.7rem;
+}
