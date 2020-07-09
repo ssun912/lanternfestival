@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lanternfestival/static/css/main.50188481.chunk.css",
-    "main.js": "/lanternfestival/static/js/main.8aa3250d.chunk.js",
-    "main.js.map": "/lanternfestival/static/js/main.8aa3250d.chunk.js.map",
+    "main.js": "/lanternfestival/static/js/main.b9045a31.chunk.js",
+    "main.js.map": "/lanternfestival/static/js/main.b9045a31.chunk.js.map",
     "runtime-main.js": "/lanternfestival/static/js/runtime-main.ae18c79b.js",
     "runtime-main.js.map": "/lanternfestival/static/js/runtime-main.ae18c79b.js.map",
     "static/js/2.08250c12.chunk.js": "/lanternfestival/static/js/2.08250c12.chunk.js",
     "static/js/2.08250c12.chunk.js.map": "/lanternfestival/static/js/2.08250c12.chunk.js.map",
     "index.html": "/lanternfestival/index.html",
-    "precache-manifest.a87adb78f514d62c062e02d6f8ae84cf.js": "/lanternfestival/precache-manifest.a87adb78f514d62c062e02d6f8ae84cf.js",
+    "precache-manifest.0bb212c37ea3dec97fc42192cefbb9e7.js": "/lanternfestival/precache-manifest.0bb212c37ea3dec97fc42192cefbb9e7.js",
     "service-worker.js": "/lanternfestival/service-worker.js",
     "static/css/main.50188481.chunk.css.map": "/lanternfestival/static/css/main.50188481.chunk.css.map",
     "static/js/2.08250c12.chunk.js.LICENSE.txt": "/lanternfestival/static/js/2.08250c12.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.ae18c79b.js",
     "static/js/2.08250c12.chunk.js",
     "static/css/main.50188481.chunk.css",
-    "static/js/main.8aa3250d.chunk.js"
+    "static/js/main.b9045a31.chunk.js"
   ]
 }
