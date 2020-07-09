@@ -53,7 +53,7 @@ class Discount extends Component {
                             text="Buy Now!"
                             backgroundColor="orange"
                             icon="confirmation_number"
-                            link="https://www.showclix.com/event/nyc-winter-lantern-festival-2019"
+                            link="/"
                         />
                     </div>
                     </Slide>
