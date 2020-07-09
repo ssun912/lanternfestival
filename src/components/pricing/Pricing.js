@@ -13,7 +13,7 @@ class Pricing extends Component {
             'Group Ticket Discounts available.',
             'On-site VIP Parking included. Limited sales, take action fast!'
         ],
-        links: 'https://www.showclix.com/event/nyc-winter-lantern-festival-2019',
+        links: '/',
         delay: [500, 0, 500]
     }
 
