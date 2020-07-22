@@ -1,83 +1,73 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Slide from 'react-reveal/Slide';
 
-class Countdown extends Component {
-    state = {
-        days: '0',
-        hours: '0',
-        minutes: '0',
-        seconds: '0'
-    }
+const Countdown = ({ deadline }) => {
+    const [days, setDays] = useState();
+    const [hours, setHours] = useState();
+    const [minutes, setMinutes] = useState();
+    const [seconds, setSeconds] = useState();
 
-    getTimeUntil() {
-        const time = Date.parse(this.props.deadline) - Date.parse(new Date());
+    const time = Date.parse(deadline) - Date.parse(new Date());
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setDays(Math.floor(time / 1000 / 60 / 60 / 24));
+            setHours(Math.floor(time / 1000 / 60 / 60 % 24));
+            setMinutes(Math.floor(time / 1000 / 60 % 60));
+            setSeconds(Math.floor(time / 1000 % 60));
+        }, 1000);
 
-        const seconds = Math.floor(time / 1000 % 60);
-        const minutes = Math.floor(time / 1000 / 60 % 60);
-        const hours = Math.floor(time / 1000 / 60 / 60 % 24);
-        const days = Math.floor(time / 1000 / 60 / 60 / 24);
+        return () => clearInterval(interval);
+    })
 
-        // ES6 shortens for writing days = days
-        this.setState({
-            days, hours, minutes, seconds
-        })
-    }
+    return (
+        <Slide left delay={1000}>
 
-    componentDidMount() {
-        setInterval(()=> this.getTimeUntil(), 1000)
-    }
-    
-    render() {
-        return (
-            <Slide left delay={1000}>
-                
-                <div className="countdown_wrapper">
-                    <div className="countdown_top">
-                        ONLY:
+            <div className="countdown_wrapper">
+                <div className="countdown_top">
+                    ONLY:
+            </div>
+
+                <div className="countdown_bottom">
+                    <div className="countdown_item">
+                        <div className="countdown_time">
+                            {days}
+                        </div>
+                        <div className="countdown_tag">
+                            Days
                     </div>
-                    
-                    <div className="countdown_bottom">
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.days}
-                            </div>
-                            <div className="countdown_tag">
-                                Days
-                            </div>
-                        </div>
+                    </div>
 
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.hours}
-                            </div>
-                            <div className="countdown_tag">
-                                Hrs
-                            </div>
+                    <div className="countdown_item">
+                        <div className="countdown_time">
+                            {hours}
                         </div>
+                        <div className="countdown_tag">
+                            Hrs
+                    </div>
+                    </div>
 
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.minutes}
-                            </div>
-                            <div className="countdown_tag">
-                                Min
-                            </div>
+                    <div className="countdown_item">
+                        <div className="countdown_time">
+                            {minutes}
                         </div>
+                        <div className="countdown_tag">
+                            Min
+                    </div>
+                    </div>
 
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.seconds}
-                            </div>
-                            <div className="countdown_tag">
-                                Sec
-                            </div>
+                    <div className="countdown_item">
+                        <div className="countdown_time">
+                            {seconds}
                         </div>
-                    </div>                
+                        <div className="countdown_tag">
+                            Sec
+                    </div>
+                    </div>
                 </div>
-            </Slide>
-
-        );
-    }
+            </div>
+        </Slide>
+    )
 }
+
 
 export default Countdown;
