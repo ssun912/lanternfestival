@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lanternfestival/precache-manifest.0bb212c37ea3dec97fc42192cefbb9e7.js"
+  "/lanternfestival/precache-manifest.9dea6d4e95f6ff6bce88eb0d9a9e131a.js"
 );
 
 self.addEventListener('message', (event) => {

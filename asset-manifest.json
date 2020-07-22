@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lanternfestival/static/css/main.50188481.chunk.css",
-    "main.js": "/lanternfestival/static/js/main.b9045a31.chunk.js",
-    "main.js.map": "/lanternfestival/static/js/main.b9045a31.chunk.js.map",
+    "main.js": "/lanternfestival/static/js/main.cb524aa2.chunk.js",
+    "main.js.map": "/lanternfestival/static/js/main.cb524aa2.chunk.js.map",
     "runtime-main.js": "/lanternfestival/static/js/runtime-main.ae18c79b.js",
     "runtime-main.js.map": "/lanternfestival/static/js/runtime-main.ae18c79b.js.map",
-    "static/js/2.08250c12.chunk.js": "/lanternfestival/static/js/2.08250c12.chunk.js",
-    "static/js/2.08250c12.chunk.js.map": "/lanternfestival/static/js/2.08250c12.chunk.js.map",
+    "static/js/2.07ba8830.chunk.js": "/lanternfestival/static/js/2.07ba8830.chunk.js",
+    "static/js/2.07ba8830.chunk.js.map": "/lanternfestival/static/js/2.07ba8830.chunk.js.map",
     "index.html": "/lanternfestival/index.html",
-    "precache-manifest.0bb212c37ea3dec97fc42192cefbb9e7.js": "/lanternfestival/precache-manifest.0bb212c37ea3dec97fc42192cefbb9e7.js",
+    "precache-manifest.9dea6d4e95f6ff6bce88eb0d9a9e131a.js": "/lanternfestival/precache-manifest.9dea6d4e95f6ff6bce88eb0d9a9e131a.js",
     "service-worker.js": "/lanternfestival/service-worker.js",
     "static/css/main.50188481.chunk.css.map": "/lanternfestival/static/css/main.50188481.chunk.css.map",
-    "static/js/2.08250c12.chunk.js.LICENSE.txt": "/lanternfestival/static/js/2.08250c12.chunk.js.LICENSE.txt",
+    "static/js/2.07ba8830.chunk.js.LICENSE.txt": "/lanternfestival/static/js/2.07ba8830.chunk.js.LICENSE.txt",
     "static/media/highlights.css": "/lanternfestival/static/media/favicon.ebede0bf.png",
     "static/media/slide1.JPG": "/lanternfestival/static/media/slide1.6fc5e223.JPG",
     "static/media/slide2.JPG": "/lanternfestival/static/media/slide2.c98f0e74.JPG",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ae18c79b.js",
-    "static/js/2.08250c12.chunk.js",
+    "static/js/2.07ba8830.chunk.js",
     "static/css/main.50188481.chunk.css",
-    "static/js/main.b9045a31.chunk.js"
+    "static/js/main.cb524aa2.chunk.js"
   ]
 }

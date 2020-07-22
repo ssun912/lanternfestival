@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7192eaafa04e26951c17dccad756810",
+    "revision": "9cc31055f6496e7aa865563dc59ece67",
     "url": "/lanternfestival/index.html"
   },
   {
-    "revision": "0ebc1302c13c859e700a",
+    "revision": "8b30686ac060d88d007e",
     "url": "/lanternfestival/static/css/main.50188481.chunk.css"
   },
   {
-    "revision": "75f2f2b3aa5463ef5e23",
-    "url": "/lanternfestival/static/js/2.08250c12.chunk.js"
+    "revision": "ed870863ed6fb911f104",
+    "url": "/lanternfestival/static/js/2.07ba8830.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/lanternfestival/static/js/2.08250c12.chunk.js.LICENSE.txt"
+    "url": "/lanternfestival/static/js/2.07ba8830.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ebc1302c13c859e700a",
-    "url": "/lanternfestival/static/js/main.b9045a31.chunk.js"
+    "revision": "8b30686ac060d88d007e",
+    "url": "/lanternfestival/static/js/main.cb524aa2.chunk.js"
   },
   {
     "revision": "9b2f2eda1f6f93457e8d",
